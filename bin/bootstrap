@@ -1,0 +1,19 @@
+#!/bin/sh
+
+docker-compose up -d db
+
+# Create `bunsen` database
+sleep 2
+docker-compose exec db psql -h localhost -U postgres \
+  -c 'CREATE DATABASE bunsen;'
+
+# Set up Django
+docker-compose up -d api
+docker-compose exec api python3 manage.py migrate
+
+echo "\nCreating Django superuser `root` with email `root@realgeeks.com`."
+docker-compose exec api python3 manage.py createsuperuser \
+  --username root --email root@example.com
+docker-compose up -d
+
+echo "\nYou're all set."
