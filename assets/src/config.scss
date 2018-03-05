@@ -1,0 +1,8 @@
+$font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}

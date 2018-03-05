@@ -1,5 +1,5 @@
 clean:
-	scripts/clean.sh
+	bin/clean
 
 bootstrap:
-	scripts/bootstrap.sh
+	bin/bootstrap

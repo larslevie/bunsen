@@ -1,5 +1,15 @@
 {% load static %}
+{% load components %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'dashboard/styles.css' %}" />
-
-Hello world.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="{% static 'index.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'dashboard/styles.css' %}" />
+  </head>
+  <body>
+    {% component 'helloworld' %}
+  </body>
+</html>

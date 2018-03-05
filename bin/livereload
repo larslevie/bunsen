@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+node_modules/.bin/livereload dist -p 8081

@@ -1,0 +1,61 @@
+{
+  "name": "bunsen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "assets/index.js",
+  "scripts": {
+    "build": "./bin/build",
+    "watch": "./bin/watch-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larslevie/bunsen.git"
+  },
+  "author": "Lars Levie <larslevie@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/larslevie/bunsen/issues"
+  },
+  "homepage": "https://github.com/larslevie/bunsen#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.5",
+    "cogs": "^4.2.6",
+    "cogs-transformer-autoprefixer": "^3.0.1",
+    "cogs-transformer-babel": "^3.0.0",
+    "cogs-transformer-clean-css": "^3.1.0",
+    "cogs-transformer-concat-commonjs": "^3.2.2",
+    "cogs-transformer-directives": "^4.0.0",
+    "cogs-transformer-eslint": "^3.1.0",
+    "cogs-transformer-json": "^3.0.0",
+    "cogs-transformer-local-css": "^4.1.0",
+    "cogs-transformer-replace": "^3.0.0",
+    "cogs-transformer-sass": "^3.0.1",
+    "cogs-transformer-stylelint": "^3.1.1",
+    "cogs-transformer-uglify-js": "^3.1.1",
+    "cogs-transformer-underscore-template": "^1.1.0",
+    "eslint": "^4.18.2",
+    "eslint-config-coderiety": "^1.0.0",
+    "eslint-plugin-react": "^7.7.0",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "livereload": "^0.7.0",
+    "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "stylelint": "^9.1.1",
+    "stylelint-config-recommended-scss": "^3.1.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^2.4.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "watchy": "0.9.3"
+  }
+}
